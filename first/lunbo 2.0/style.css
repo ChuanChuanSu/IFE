@@ -1,0 +1,162 @@
+/*
+  各部分布局
+*/
+
+.container{
+    width:400px;
+    height:200px;
+    border:0;
+    margin:100px auto;
+    overflow:hidden;
+    position:relative;
+}
+
+.container ul{
+    width:100%;
+    height:100%;
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.container li{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:100%;
+    top:0;
+}
+
+/*
+  轮播图自动切换动画
+*/
+
+.container .first-image{
+    animation:first 20s ease;
+    animation-iteration-count:infinite;
+    background:#d45d5c;
+}
+
+.container .second-image{
+    animation:second 20s ease;
+    animation-iteration-count:infinite;
+    background:#00ff00;
+}
+
+.container .third-image{
+    animation:third 20s ease;
+    animation-iteration-count:infinite;
+    background:#f5e327;
+}
+
+.container .forth-image{
+    animation:forth 20s ease;
+    animation-iteration-count:infinite;
+    background:#7fcbf0;
+}
+
+@keyframes first{
+    0%{left:0;}
+    5%{left:0;}
+    20%{left:0;opacity:1;}
+    25%{left:-100%;opacity:0;}
+    26%{left:100%;opacity:0;}
+    95%{left:100%;opacity:0;}
+    100%{left:0;opacity:1;}
+}
+
+@keyframes second{
+    20%{left:100%;}
+    25%{left:0;opacity:1;}
+    45%{left:0;opacity:1;}
+    50%{left:-100%;opacity:0;}
+    51%{left:100%;}
+}
+
+@keyframes third{
+    45%{left:100%;}
+    50%{left:0;opacity:1;}
+    70%{left:0;opacity:1;}
+    75%{left:-100%;opacity:0;}
+    76%{left:100%;}
+}
+
+@keyframes forth{
+    1%{left:100%;}
+    70%{left:100%;}
+    75%{left:0;opacity:1;}
+    95%{left:0;opacity:1;}
+    100%{left:-100%;opacity:0;}
+}
+
+/*
+  提示框
+*/
+
+.container li .tooltip{
+    width:150px;
+    height:50px;
+    position:absolute;
+    background:rgba(0,0,0,0.7);
+    left:-150px;
+    bottom:7px;
+    opacity:0;
+    transition:all 0.5s ease;
+}
+
+.container li .tooltip h1{
+    margin:auto 0;
+    color:white;
+    font-size:24px;
+    font-weight:300;
+    height:50px;
+    line-height:50px;
+    padding-left:20px;
+}
+
+
+.container li:hover .tooltip{
+    left:0;
+    opacity:1;
+}
+
+/*
+  hover暂停特效
+*/
+
+.container:hover li{
+    animation-play-state:paused;
+}
+
+.container:hover .progress-bar{
+    animation-play-state:paused;
+}
+
+/*
+  时间进度条
+*/
+
+.progress-bar{
+    border:0;
+    margin:0;
+    padding:0;
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:5px;
+    width:100%;
+    animation:progress-bar 20s linear;
+    animation-iteration-count:infinite;
+    background:black;
+    opacity:0;
+}
+
+@keyframes progress-bar{
+    0%,25%,50%,75%{width:0;opacity:0;}
+    20%,45%,70%,95%{width:100%;opacity:0.5;}
+    24%,49%,74%,99%{width:100%;opacity:0;}
+}

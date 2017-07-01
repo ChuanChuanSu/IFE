@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+
+#container{
+    width:400px;
+    height:200px;
+    background-color:#ccc;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-200px;/*为元素高度一半*/
+    //transform:translateX(-50%) translateY(-50%);
+}
+
+#circle1{
+    width:50px;
+    height:50px;
+    background-color:#fc0;
+    border-radius:0 0 50px 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#circle2{
+    width:50px;
+    height:50px;
+    background-color:#fc0;
+    border-radius:50px 0 0 0;
+    position:absolute;
+    left:350px;
+    top:150px;
+}

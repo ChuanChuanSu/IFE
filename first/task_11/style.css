@@ -1,0 +1,280 @@
+/*
+  整体
+*/
+
+html{
+    font-size:125%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    border:0;
+    background:rgb(245, 245, 245);
+    padding-bottom:3rem;
+}
+
+/*
+  头部
+*/
+
+body>header{
+    width:100%;
+    height:2.5rem;
+    background:#93d4d9;
+    position:relative;
+    line-height:2.5rem;
+    text-align:center;
+    font-size:0.9rem;
+    color:white;
+}
+
+ body>header div{
+    position:absolute;
+    left:0.5rem;
+    top:50%;
+    transform:translateY(-50%);
+    display:inline-flex;
+    flex-flow:row nowrap;
+    font-size:0.8rem;
+    align-items:center;
+}
+
+body>header div img{
+    width:0.6rem;
+    margin-right:0.3rem;
+}
+
+/*
+  导航栏
+*/
+
+nav{
+    width:100%;
+    height:3rem;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    align-items:center;
+    margin:0;
+    padding:0;
+    border:0;
+    background:white;
+}
+
+nav div{
+    box-sizing:border-box;
+    width:20%;
+    height:100%;
+    line-height:3rem;
+    text-align:center;
+    font-size:0.9rem;
+}
+
+nav div:active{
+    border-bottom:0.15rem solid #93d4d9;
+}
+
+/*
+  大图
+*/
+
+.part1{
+    width:100%;
+    margin:0;
+    border:0;
+    padding:0;
+    background:white;
+}
+
+.part1>img{
+    width:100%;
+}
+
+.part1 .container{
+    margin:1rem 0.5rem 0.5rem 0.5rem;
+    border:0;
+    padding:0;
+}
+
+.part1 .container .container1{
+    display:flex;
+    flex-flow:row nowrap;
+    width:100%;
+    border-bottom:0.05rem solid #e4dcdc;
+    padding-bottom:1rem;
+    font-size:0.7rem;
+}
+
+.part1 .container .container1>div{
+    width:20%;
+    text-align:center;
+}
+
+.part1 .container .container1>div img{
+    width:60%;
+
+}
+
+.part1 .container .container2{
+    padding:0.5rem 0;
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+.part1 .container .container2>div{
+    box-sizing:border-box;
+    width:calc(100% / 3);
+    text-align:center;
+    font-size:0.8rem;
+    font-family:"Microsoft YaHei UI";
+}
+
+.part1 .container .container2>div img{
+    width:80%;
+}
+
+.part1 .container .container2>div span{
+    font-size:1rem;
+    font-weight:bold;
+}
+
+.part1 .container .container2>div:nth-child(1),
+.part1 .container .container2>div:nth-child(2){
+    border-right:0.05rem solid #e4dcdc;
+}
+
+/*
+  模块一
+*/
+
+.modular1{
+    background-color:white;
+    padding:0 0.5rem 0.5rem 0.5rem;
+    //color:#808080;
+}
+
+.modular1 header{
+    height:2.5rem;
+    line-height:2.5rem;
+    font-size:1rem;
+    border-bottom:0.05rem solid #e4dcdc;
+}
+
+.modular1 .container{
+    width:100%;
+    margin:0.5rem 0 0.5rem 0;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+}
+
+.modular1 .left{
+    width:30%;
+    display:inline-block;
+}
+
+.modular1 .left i{
+    display:inline-block;
+    width:100%;
+    height:5rem;
+    background:url(images/section_img.jpg) no-repeat;
+    background-size:cover;
+}
+
+.modular1 .left i img{
+    width:100%;
+}
+
+.modular1 .left i:last-child{
+    position:relative;
+    top:0.2rem;
+}
+
+.modular1 .right{
+    width: 67%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-content:space-between;
+}
+
+.modular1 .right div{
+    width:calc(100% * 32 / 67);
+    height:calc((100% - 1.5rem) / 4);
+    line-height:2.375rem;
+    text-align:center;
+    font-size:0.8rem;
+    background:rgb(245, 245, 245);
+}
+
+/*
+  模块二
+*/
+
+.modular2{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+/*
+  文章
+*/
+
+.article{
+    box-sizing:border-box;
+    width:100%;
+    background:white;
+    margin:0;
+    border:0;
+    padding:0 0.5rem;
+}
+
+.article article{
+    padding:0.5rem 0;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    font-size:0.7rem;
+    color:#bcbcbc;
+    border-bottom:0.05rem solid #e4dcdc;
+}
+
+.article article span:first-child{
+    font-size:1rem;
+    color:black;
+}
+
+.article article .left{
+    width:35%;
+    height:100%;
+}
+
+.article article .left img{
+    width:100%;
+    height:100%;
+}
+
+.article article .right{
+    width:60%;
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content:space-between;
+}
+
+.article article:last-child{
+    flex-flow:column nowrap;
+}
+
+.article article:last-child div{
+    display:flex;
+    flex-flow:row nowrap;
+    width:100%;
+    justify-content:space-between;
+    margin:0.5rem 0;
+}
+
+.article article:last-child div img{
+    width:32%;
+    height:4rem;
+}

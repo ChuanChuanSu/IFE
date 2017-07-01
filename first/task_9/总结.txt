@@ -1,0 +1,6 @@
+1、transition属性为伪类（如hover）添加效果
+2、灵活使用hover、checked等伪类
+3、灵活使用relative定位
+4、纯Html、CSS实现选项卡切换
+5、table的border-collapse属性可以是border合并，实现好看的边框；定义边框时在选择器table、th、td中定义，tr元素无法定义边框border。
+6、hover伪类所附着的元素必须在图层的最上层才可以触发（可通过z-index触发）

@@ -1,0 +1,77 @@
+/*
+  container
+*/
+
+.grid-container{
+    width:100%;
+    border:1px solid #999;
+    padding:10px;
+}
+
+.grid-container:before,
+.grid-container:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+/*
+  通用格式
+*/
+
+[class*='col-']{
+    box-sizing:border-box;  /*方便控制元素的总体尺寸*/
+    margin:0;
+    height:70px;
+    display:inline-block;
+    float:left;  /*注意使用浮动*/
+    padding:10px;  //构成栏与栏之间的分隔
+}
+
+.grid-container p{   /*p元素是实际的栏column*/
+    box-sizing:border-box;
+    background-color: #eee;
+    border:1px solid #999;
+    width:100%;
+    height:100%;
+    line-height:48px;
+    margin:0;
+    padding-left:10px;
+}
+
+/*
+  栏
+*/
+
+.col-1{
+    width:calc(100% / 12);
+}
+
+.col-2{
+    width:calc(100% / 6);
+}
+
+.col-3{
+    width:calc(100% / 4);
+}
+
+.col-4{
+    width:calc(100% / 3);
+}
+
+.col-6{
+    width:calc(100% / 2);
+}
+
+/*
+  响应式设计
+*/
+
+/*width小于等于768px时触发*/
+@media all and (max-width:768px){
+    .two{width:calc(100% / 6);}
+    .three{width:calc(100% / 4);}
+    .six{width:calc(100% / 2);}
+    .eight{width:calc(100% * 2 / 3);}
+    .twelve{width:100%;}
+}

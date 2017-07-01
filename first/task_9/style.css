@@ -1,0 +1,1053 @@
+/*
+  顶栏
+*/
+.head:before,
+.head:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.head{
+    box-sizing:border-box;
+    width:100%;
+    height:55px;
+    background-color:#2189bf;
+    padding:9px 100px 9px 50px;
+}
+
+.head img{
+    float:left;
+}
+
+.head .right{
+    width:70%;
+    height:100%;
+    float:right;
+    line-height:37px;
+    display:inline-block;
+}
+
+.head .right .login{
+    float:right;
+    line-height:37px;
+    display:inline-block;
+    color:white;
+    font-size:12px;
+}
+
+.head .right .login img{
+    margin:10px 0 9px 0;
+    vertical-align: middle;
+}
+
+.head .right .input{
+    float:right;
+    display:inline-block;
+    background-color:white;
+    height:30px;
+    line-height: 30px;
+    border-radius:15px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-top:4px;
+    margin-right:15px;
+    position:relative;
+}
+
+.head .right .input img{
+    margin:8px 0 4px 0;
+    vertical-align: middle;
+}
+
+.head .right .input input{
+    border:none;
+    height:80%;
+    width:100px;
+    padding:0;
+    outline:none;
+    transition: width .2s ease-out; /*使得输入框柔和地变长*/
+    margin-left:5px;
+    position:relative;
+    top:-2px;
+    cursor:pointer;
+}
+
+.head .right .input input:focus{
+    width:300px;
+}
+
+
+/*
+  main
+*/
+
+.main{
+    width:1333px;
+    height:1200px;
+    margin:0;
+    padding:0;
+}
+
+.main:before,
+.main:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+/*
+  个人信息
+*/
+
+.main .left{
+    background-color:#2a2e3d;
+    width:260px;
+    height:100%;
+    margin:0;
+    float:left;
+}
+
+.main .left .name{
+    height:57px;
+    margin:20px 0 20px 50px;
+    line-height:57px;
+}
+
+.main .left .name .headImage{
+    display:inline-block;
+    width:57px;
+    height:57px;
+    border-radius:50%;
+    background-image:url(img/head.jpg);
+    float:left;
+    transition:transform 2s;
+}
+
+.main .left .name .headImage:hover{
+    transform:rotate(360deg);
+}
+
+.main .left .name span{
+    color:white;
+    margin-left:20px;
+    //display:inline-block;
+}
+
+.main .left .fans{
+    width:100%;
+    color:gray;
+}
+
+.main .left .fans table{
+    width:100%;
+    font-size:14px;
+}
+
+.main .left .fans .rightTd{
+    border-right:1px gray solid;
+    text-align:right;
+    padding-right:20px;
+    height:36px;
+}
+
+.main .left .fans .leftTd{
+    text-align:left;
+    padding-left:20px;
+}
+
+.main .left .selftables{
+    box-sizing:border-box;
+    background-color:#393d4e;
+    width:100%;
+    padding:10px 0 10px 40px;
+    color:gray;
+    font-size:12px;
+    margin-top:20px;
+}
+
+.main .left .selftables div{
+    height:30px;
+    line-height:30px;
+    position:relative;
+}
+
+.main .left .selftables .tables,.main .left .selftables .file1,.main .left .selftables .document2{
+    color:white;
+}
+
+.main .left .selftables i{
+    width:16px;
+    height:16px;
+    display:inline-block;
+    position:relative;
+    top:3px;
+}
+
+.main .left .selftables span{
+    margin-left:5px;
+}
+.main .left .selftables .tables i{
+    background-image:url(img/userTab.gif);
+}
+
+.main .left .selftables .document1 i{
+    background-image:url(img/dir.gif);
+}
+
+.main .left .selftables .document1 i:first-child{
+    background-image:url(img/arrow.gif);
+}
+
+.main .left .selftables .document2 i{
+    background-image:url(img/dir-c.gif);
+}
+
+.main .left .selftables .document2 i:first-child{
+    background-image:url(img/down.PNG);
+}
+
+.main .left .selftables .file1 i{
+    background-image:url(img/file-c.gif)
+}
+
+.main .left .selftables .file2 i{
+    background-image:url(img/file.gif)
+}
+
+.main .left .selftables .document1,.main .left .selftables .document2{
+    margin-left:20px;
+}
+
+.main .left .selftables .file1,.main .left .selftables .file2{
+    margin-left:55px;
+}
+
+.main .left .options{
+    padding-left:40px;
+    font-size:12px;
+    color:gray;
+}
+
+.main .left .options div{
+    height:50px;
+    line-height:60px;
+    position:relative;
+}
+
+.main .left .options i{
+    width:16px;
+    height:16px;
+    display:inline-block;
+    position:relative;
+    top:4px;
+    margin-right:5px;
+}
+
+.main .left .options .saves i{
+    background:url(img/star.gif);
+}
+
+.main .left .options .shares i{
+    background:url(img/share.gif);
+}
+
+.main .left .options .acount i{
+    background:url(img/userMes.gif);
+}
+
+/*
+  网页主体部分(right)
+*/
+
+.main .right{
+    width:1073px;
+    height:100%;
+    float:left;
+    background-color:#eee;
+}
+
+/*
+  头部
+*/
+
+.main .right .header{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    background-color: white;
+    padding-left:40px;
+    font-size:12px;
+    color:gray;
+}
+
+.main .right .header span{
+    color:blue;
+}
+
+/*
+  查询
+*/
+
+.main .right .body{
+    width:890px;
+    margin-left:60px;
+    margin-top:20px;
+}
+.main .right .body .query{
+    width:890px;
+    height:86px;
+    background-color:white;
+    box-sizing:border-box;
+    padding-left:30px;
+    padding-right:20px;
+    padding-top:14px;
+    border:1px rgba(128, 128, 128, 0.36) solid;
+    position:relative;
+}
+
+.main .right .body .query .first{
+    display:inline-block;
+    height:23px;
+    line-height:23px;
+}
+
+.main .right .body .query form>.first{
+    position:relative;
+    top:-28px;
+}
+
+.main .right .body .query .first:before,
+.main .right .body .query .first:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.main .right .body .query label{
+    color:gray;
+    font-size:12px;
+    float:left;
+}
+
+.main .right .body .query select{
+    -webkit-appearance: none;
+    width:70px;
+    height:23px;
+    line-height:23px;
+    float:left;
+    background:url(img/black-arrow.gif) no-repeat 95% 3px;
+    border:1px solid rgba(128, 128, 128, 0.36);
+    margin-left:10px;
+    display:inline-block;
+    padding-left:10px;
+}
+
+.main .right .body .query .second{
+    display:inline-block;
+    margin-left:50px;
+}
+
+.main .right .body .query .second>div{
+    display:block;
+}
+
+.main .right .body .query .second>div.down{
+    margin-top:5px;
+}
+
+.main .right .body .query .second .first select{
+    width:100px;
+}
+
+.main .right .body .query img{
+    position:relative;
+    top:-3px;
+}
+
+.main .right .body .query .third{
+    display:inline-block;
+    width:350px;
+    margin-left:20px;
+    position:relative;
+}
+
+.main .right .body .query .third>div:first-child input{
+    height:21px;
+    border:1px solid rgba(128, 128, 128, 0.36);
+    position:relative;
+    top:-1px;
+    margin-left:10px;
+    width:calc(100% - 40px);
+    font-family:'Arial';
+    padding-left:10px;
+    box-sizing:border-box;
+}
+
+.main .right .body .query .third [class*='right']{
+    float:right;
+}
+
+.main .right .body .query .third .leftdown{
+    margin-top:5px;
+    width:126px;
+}
+
+.main .right .body .query .third .rightup select{
+    width:80px;
+}
+
+.main .right .body .query .third .rightdown{
+    width:calc(100% - 166px);
+    margin-left:40px;
+    margin-top:5px;
+}
+
+.main .right .body .query .third .rightdown select{
+    width:calc(100% - 46px);
+}
+
+.main .right .body .query .third .leftup{
+    margin-right:40px;
+    width:calc(100% - 166px);
+}
+
+.main .right .body .query form>input:last-child{
+    width:50px;
+    height:25px;
+    line-height:25px;
+    background-color:#2189bf;
+    color:white;
+    font-size:12px;
+    border:none;
+    border-radius:2px;
+    position:relative;
+    top:-20px;
+    margin-left:20px;
+}
+
+/*
+  历史查询
+*/
+
+.main .right .body .history{
+    width:100%;
+    height:65px;
+    margin-top:10px;
+}
+
+.main .right .body .history:before,
+.main .right .body .history:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.main .right .body .history>div{
+    box-sizing:border-box;
+    background-color:white;
+    margin-right:4px;
+    height:100%;
+    float:left;
+    border:1px solid rgba(128, 128, 128, 0.36);
+}
+
+.main .right .body .history .border{
+    width:30px;
+    position:relative;
+}
+
+.main .right .body .history .button{
+    width:calc(100% - 30px * 2 - 110px * 6 - 4 * 8px);
+    margin-right:0;
+}
+
+.main .right .body .history .border>img{
+    position:relative;
+    top:18px;
+}
+
+.main .right .body .history .money{
+    width:110px;
+    padding-top:8px;
+    text-align:center;
+}
+
+.main .right .body .history .money span{
+    font-size:20px;
+    color:orangered;
+}
+
+.main .right .body .history .money>span:first-child{
+    font-size:10px;
+    color:black;
+}
+
+.main .right .body .history .money span span{
+    font-size:14px;
+    color:gray;
+}
+
+.main .right .body .history .money:hover{
+    border-top:3px solid blue;
+}
+
+.main .right .body .history .button{
+    font-size:14px;
+    position:relative;
+    text-align:center;
+}
+
+.main .right .body .history .button img{
+    position:relative;
+    top:11px;
+}
+
+/*
+  4月份统计
+*/
+
+.main .right .body .march{
+    width:100%;
+    height:94px;
+    margin-top:15px;
+}
+
+.main .right .body .march>span{
+    display:block;
+    font-size:12px;
+
+}
+
+.main .right .body .march>div{
+    display:inline-block;
+    background-color:white;
+    box-sizing:border-box;
+    width:202px;
+    height:70px;
+    margin-right:27px;
+    float:left;
+    border:1px solid rgba(128, 128, 128, 0.36);
+    position:relative;
+    padding-left:5px;
+}
+
+.main .right .body .march>div:nth-last-child(1){
+    margin-right:0;
+}
+
+.main .right .body .march>div div{
+    width:61px;
+    height:46px;
+    display:inline-block;
+    position:absolute;
+    top:11px;
+    right:10px;
+}
+
+.main .right .body .march .deal>span{
+    position:relative;
+    top:13px;
+    font-size:10px;
+}
+
+.main .right .body .march .deal>span span{
+    font-size:12px;
+    color:gray;
+}
+
+.main .right .body .march .green{
+    border-left:3px solid #43b29e;
+}
+
+.main .right .body .march .green div{
+    background-color:#43b29e;
+}
+
+.main .right .body .march .blue{
+    border-left:3px solid #388ac1;
+}
+
+.main .right .body .march .blue div{
+    background-color:#388ac1;
+}
+
+.main .right .body .march .red{
+    border-left:3px solid #d04a36;
+}
+
+.main .right .body .march .red div{
+    background-color:#d04a36;
+}
+
+.main .right .body .march .yellow{
+    border-left:3px solid #e2cd46;
+}
+
+.main .right .body .march .yellow div{
+    background-color:#e2cd46;
+}
+
+/*
+  项目
+*/
+
+.main .right .body .project{
+    box-sizing:border-box;
+    width:100%;
+    margin-top:7px;
+}
+
+.main .right .body .project:before,
+.main .right .body .project:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.main .right .body .project .frame{
+    box-sizing:border-box;
+    display:inline-block;
+    float:left;
+    border:1px solid rgba(128, 128, 128, 0.36);
+    border-radius:10px;
+    background-color:white;
+}
+
+.main .right .body .project .frame>div:first-child{
+    width:100%;
+    height:39px;
+    border-bottom: 1px solid #e7e8eb;
+    background-color:#f4f5f6;
+    color:gray;
+    padding-left:20px;
+    font-size:14px;
+    line-height:39px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    box-sizing:border-box;
+    margin-bottom:10px;
+}
+
+.main .right .body .project .leftup{
+    width:533px;
+    height:353px;
+    margin-right:4px;
+    position:relative;
+}
+
+.main .right .body .project .rightup{
+    width:353px;
+    height:353px;
+}
+
+.main .right .body .project .leftdown{
+    width:356px;
+    height:362px;
+    margin-right:7px;
+    margin-top:8px;
+}
+
+.main .right .body .project .rightdown{
+    width:527px;
+    height:362px;
+    margin-top:8px;
+}
+
+/*
+  项目一
+*/
+
+.main .right .body .project .leftup li{
+    float:left;
+    //display:inline-block;
+    box-sizing:border-box;
+    width:86px;
+    height:27px;
+    border:none;
+    margin-right:3px;
+    //border-top-left-radius:5px;
+    //border-top-right-radius:5px;
+    list-style:none;
+    text-align:center;
+    font-size:12px;
+    line-height:27px;
+    position:relative;
+}
+
+.main .right .body .project .leftup li input{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    border:none;
+    outline:none;
+    z-index:99;
+    opacity:0;
+    cursor:pointer;
+    margin:0;
+}
+
+.main .right .body .project .leftup li span{
+    width:100%;
+    height:calc(100% + 1px);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    background-color:#ededf0;
+    z-index:0;
+    display:inline-block;
+    box-sizing:border-box;
+    position:relative;
+}
+
+.main .right .body .project .leftup li input:checked + span{
+    border:1px solid rgba(128, 128, 128, 0.36);
+    border-bottom:1px solid white;
+    background:white;
+    z-index:99;
+    top:1px;
+}
+
+.main .right .body .project .leftup li table{
+    border-collapse:collapse;
+    border:1px solid #d2d2d2;
+    width:404px;
+    margin:28px 39px 28px 39px;
+    display:none;
+    position:relative;
+}
+
+.main .right .body .project .leftup li input:checked+span+table{
+    display:table;
+    z-index:90;
+}
+
+.main .right .body .project .leftup>div:last-child{
+    border:1px solid rgba(128, 128, 128, 0.36);
+    width:480px;
+    height:70%;
+    position:relative;
+    top:28px;
+    z-index:1;
+    left:40px;
+    border-radius:0 5px 5px 5px;
+}
+
+.main .right .body .project .leftup li td{
+    border:1px solid #d2d2d2;
+    width:100px;
+    height:35px;
+}
+
+.main .right .body .project .leftup ul li:nth-child(2) table{
+    position:relative;
+    left:-89px;
+}
+
+.main .right .body .project .leftup ul li:nth-child(3) table{
+    position:relative;
+    left:-178px;
+}
+
+.main .right .body .project .leftup ul li:nth-child(4) table{
+    position:relative;
+    left:-267px;
+}
+
+.main .right .body .project .leftup ul li:nth-child(5) table{
+    position:relative;
+    left:-356px;
+}
+
+.main .right .body .project .leftup ul li table tr td:hover{
+    background-color:#f4f5f6;
+}
+
+/*
+  保密协议
+*/
+
+.main .right .body .project .rightup .container{
+    width:70%;
+    height:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.main .right .body .project .rightup .container .gray{
+    color:#cccbcb;
+    font-size:14px;
+}
+
+.main .right .body .project .rightup .container .black{
+    font-size:14px;
+    color:#535353;
+}
+
+.main .right .body .project .rightup .container hr{
+    background-color:#e7e7e7;
+    border:none;
+    height:1px;
+}
+
+.main .right .body .project .rightup .container .line2{
+    border-top:1px solid #e7e7e7;
+    border-bottom:1px solid #e7e7e7;
+    margin-top:10px;
+}
+
+.main .right .body .project .rightup .container .line2>div{
+    display:inline-block;
+}
+
+.main .right .body .project .rightup .container .line2 .righthalf{
+    width:70%;
+    float:right;
+    border-left:1px solid #e7e7e7;
+}
+
+.main .right .body .project .rightup .container .line3{
+    height:50%;
+}
+
+#secret{
+    position:relative;
+    top:2px;
+}
+
+#secret + label + input{
+    background:#388bc2;
+    color:white;
+    border:none;
+    width:50px;
+    height:25px;
+    float:right;
+    border-radius:3px;
+}
+.main .right .body .project .rightup .container .line4:nth-last-child(2){
+    background:#388bc2;
+    color:white;
+}
+
+/*
+  汽车
+*/
+
+.main .right .body .project .rightdown table{
+    width:80%;
+    height:calc(100% - 39px - 20 * 2px);
+    margin:20px auto;
+    text-align:center;
+    font-size:12px;
+    border-collapse:collapse;
+    border:1px solid #e1e1e1;
+}
+
+.main .right .body .project .rightdown table th{
+    font-size:14px;
+    font-weight:500;
+}
+
+.main .right .body .project .rightdown .outer>tbody>tr:hover{
+    background:#F3F5F6;
+}
+
+.main .right .body .project .rightdown td,
+.main .right .body .project .rightdown th{
+    border:1px solid #e1e1e1;
+}
+
+.main .right .body .project .rightdown table table{
+    margin:0;
+    border:none;
+    width:100%;
+}
+
+.main .right .body .project .rightdown table table tr,
+.main .right .body .project .rightdown table table td{
+    border:0;
+}
+
+.main .right .body .project .rightdown .outer>tbody>tr>th:nth-child(1),
+.main .right .body .project .rightdown .outer>tbody>tr>td:nth-child(1){
+    width:15%;
+}
+
+.main .right .body .project .rightdown .outer>tbody>tr>th:nth-child(2),
+.main .right .body .project .rightdown .outer>tbody>tr>td:nth-child(2){
+    width:20%;
+}
+
+.main .right .body .project .rightdown .outer table tr td:first-child{
+    width:35%;
+    text-align:right;
+}
+
+.main .right .body .project .rightdown .outer table tr td:last-child{
+    padding-left:20px;
+    line-height:16px;
+    position:relative;
+}
+
+.main .right .body .project .rightdown .outer table tr td:last-child>div{
+    width:130px;
+    height:4px;
+    padding:0;
+    border:0;
+    background:#e1e1e1;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.main .right .body .project .rightdown .outer table tr td:last-child>div div{
+    height:100%;
+    float:left;
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+.main .right .body .project .rightdown .outer table tr td:last-child>div .red{
+    background:#ed6e52;
+    width:80%;
+}
+.main .right .body .project .rightdown .outer table tr td:last-child>div .orange{
+    width:70%;
+    background:#ef804f;
+}
+
+.main .right .body .project .rightdown .outer table tr td:last-child>div .yellow{
+    width:60%;
+    background:#f19f4f;
+}
+
+.main .right .body .project .rightdown .outer tr:nth-child(5) table tr div div{
+    width:55%;
+    background:#7fcbf0;
+}
+
+.main .right .body .project .rightdown .outer tr:nth-child(6) table tr div div{
+    width:50%;
+    background:#7fcbf0;
+}
+
+.main .right .body .project .rightdown .outer tr:nth-child(7) table tr div div{
+    width:45%;
+    background:#7fcbf0;
+}
+
+.main .right .body .project .rightdown .outer tr:nth-child(8) table tr div div{
+    width:40%;
+    background:#7fcbf0;
+}
+
+.main .right .body .project .rightdown .outer tr:nth-child(9) table tr div div{
+    width:35%;
+    background:#7fcbf0;
+}
+
+.main .right .body .project .rightdown .outer tr:nth-child(10) table tr div div{
+    width:30%;
+    background:#7fcbf0;
+}
+
+.main .right .body .project .rightdown .outer tr:nth-child(11) table tr div div{
+    width:25%;
+    background:#7fcbf0;
+}
+
+/*
+  日历
+*/
+
+.main .right .body .project .leftdown .calendar{
+    width:90%;
+    margin:10px auto;
+}
+
+.main .right .body .project .leftdown .calendar .choose select{
+    height:22px;
+    margin:0;
+    -webkit-appearance:none;
+    line-height:20px;
+    padding-left:5px;
+    border:1px solid #e1e1e1;
+}
+
+.main .right .body .project .leftdown .calendar .choose input{
+    float:right;
+    background:white;
+    border:1px solid #e1e1e1;
+    height:22px;
+    width:76px;
+    position:relative;
+    top:2px;
+}
+
+.main .right .body .project .leftdown .calendar .choose input:hover{
+    background:#7fcbf0;
+    color:white;
+}
+
+.main .right .body .project .leftdown .calendar .choose select:nth-child(1){
+    width:76px;
+    background:url(img/arrow-down.png) no-repeat 95% 2px;
+}
+
+.main .right .body .project .leftdown .calendar .choose select:nth-child(2){
+    width:70px;
+    background:url(img/arrow-down.png) no-repeat 95% 2px;
+}
+
+.main .right .body .project .leftdown .calendar .choose select:nth-child(3){
+    width:82px;
+    background:url(img/arrow-down.png) no-repeat 95% 2px;
+}
+
+.main .right .body .project .leftdown .calendar table{
+    width:100%;
+    height:calc(100% - 84px);
+    margin-top:10px;
+    text-align:center;
+    font-size:12px;
+    z-index:99;
+    border-collapse:collapse;
+}
+
+.main .right .body .project .leftdown .calendar table th{
+    border-top:1px solid #a9cfec;
+    border-bottom:1px solid #e1e1e2;
+    font-weight:normal;
+}
+
+.main .right .body .project .leftdown .calendar table thead tr{
+    height:30px;
+}
+
+.main .right .body .project .leftdown .calendar table tbody tr{
+    height:45px;
+}
+
+.main .right .body .project .leftdown .calendar table span{
+    color:#c9161d;
+}
+
+
+.main .right .body .project .leftdown .calendar table td{
+    width:calc(100% / 7);
+    font-weight:normal;
+    box-sizing:border-box;
+    //border:1px solid transparent;
+}
+
+.main .right .body .project .leftdown .calendar table tbody td div{
+    width:100%;
+    height:100%;
+    border:1px solid transparent;
+    padding-top:5px;
+    box-sizing:border-box;
+}
+
+.main .right .body .project .leftdown .calendar table tbody td div:hover{
+    border:1px solid #f7d463;
+}
