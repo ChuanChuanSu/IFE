@@ -1,0 +1,132 @@
+.container{
+    margin:50px auto;
+    width:80%;
+    height:460px;
+    background:#cccccc;
+    position:relative;
+}
+
+input,input+label{
+    position:absolute;
+    bottom:15px;
+    left:50%;
+}
+
+input{
+    width:9px;
+    height:9px;
+    z-index:11;
+    display:none;
+}
+
+input + label{
+    display:block;
+    width:6px;
+    height:6px;
+    z-index:10;
+    border:3px solid rgba(255,255,255,0.9);
+    border-radius:50%;
+}
+
+.selector1,.selector1+label{
+    margin-left:-36px;
+}
+
+.selector3,.selector3+label{
+    margin-left:36px;
+}
+
+input:checked + label{
+    background:rgba(255,255,255,0.9)
+}
+
+[class*="button-arrow-"]{
+    display:none;
+    width:28px;
+    height:38px;
+    position:absolute;
+    top:50%;
+    margin-top:-19px;
+    background:url(img/arrows.png);
+    opacity:0.8;
+    transition:opacity 0.3s linear;
+    cursor:pointer;
+    z-index:20;
+}
+
+[class*='button-arrow-']:hover{
+    opacity:1;
+}
+
+[class*='button-arrow-']:active{
+    margin-top:-18px;
+}
+
+.selector1:checked~.button-arrow-2,
+.selector2:checked~.button-arrow-3{
+    right:15px;
+    display:block;
+    background-position:right top;
+}
+
+.selector2:checked~.button-arrow-1,
+.selector3:checked~.button-arrow-2{
+    left:15px;
+    display:block;
+    background-position:left top;
+}
+
+.images{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+}
+
+.images ul{
+    list-style:none;
+    width:300%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    transition:left 0.5s linear;
+}
+
+.images li{
+    display:inline-block;
+    float:left;
+    margin:0 60px;
+    height:100%;
+    width:calc((100% - 360px)/3);
+    border:0;
+    padding:0;
+}
+
+li.first-li{
+    background:#d45d5c;
+}
+
+li.second-li{
+    background:#00ff00;
+}
+
+li.third-li{
+    background:#7fcbf0;
+}
+
+.selector1:checked ~ .images ul{
+    left:0;
+}
+
+.selector2:checked ~ .images ul{
+    left:-100%;
+}
+
+.selector3:checked ~ .images ul{
+    left:-200%;
+}
