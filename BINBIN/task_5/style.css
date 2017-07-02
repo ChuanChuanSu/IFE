@@ -1,0 +1,25 @@
+ul{
+    list-style:none;
+    padding:0;
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:flex-end;
+}
+
+li{
+    background-color: lightcoral;
+    color:white;
+    text-align:center;
+    float:left;
+    margin-right:10px;
+    position:relative;
+    width:40px;
+    transition:height 2s ease;
+}
+
+li span{
+    position:absolute;
+    bottom:5px;
+    left:50%;
+    transform:translateX(-50%);
+}
