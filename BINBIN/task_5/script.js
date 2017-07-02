@@ -76,7 +76,22 @@ function bubbleSort(){
     }
 }
 
-
+function insertSort(){
+    let sorted = 0;
+    while(sorted < ul.childNodes.length - 1)
+    {
+        for(var i = 0;i <= sorted && parseInt(ul.childNodes[sorted + 1].childNodes[0].innerHTML,10) >= parseInt(ul.childNodes[i].childNodes[0].innerHTML,10);i++){}
+        let temp = ul.childNodes[sorted + 1].childNodes[0].innerHTML;
+        for(let j = sorted + 1;j > i;j--)
+        {
+            ul.childNodes[j].childNodes[0].innerHTML = ul.childNodes[j - 1].childNodes[0].innerHTML;
+            ul.childNodes[j].style.height = String(parseInt(ul.childNodes[j].childNodes[0].innerHTML,10) * 2) + 'px';
+        }
+        ul.childNodes[i].childNodes[0].innerHTML = temp;
+        ul.childNodes[i].style.height = String(parseInt(ul.childNodes[i].childNodes[0].innerHTML,10) * 2) + 'px';
+        sorted++;
+    }
+}
 
 
 function initialize(){
@@ -85,6 +100,7 @@ function initialize(){
     document.getElementById("left-out").addEventListener("click",leftOut);
     document.getElementById("right-out").addEventListener("click",rightOut);
     document.getElementById("bubble_sort").addEventListener("click",bubbleSort);
+    document.getElementById("insert_sort").addEventListener("click",insertSort);
 }
 
 initialize();
