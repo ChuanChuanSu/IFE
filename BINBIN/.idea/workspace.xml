@@ -17,39 +17,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/task_5/script.js">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="274">
-                    <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-                    <folding>
-                      <element signature="n#!!block;n#rightIn#0" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BINBIN" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_5/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="228">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="e#323#329#0" expanded="true" />
                 <element signature="e#329#335#0" expanded="true" />
@@ -61,6 +39,25 @@
                 <element signature="e#436#442#0" expanded="true" />
                 <element signature="e#442#448#0" expanded="true" />
                 <element signature="e#448#454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task_5/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="145" column="39" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!block;n#addDeleteLi#0" expanded="false" />
+                <element signature="n#!!block;n#leftIn#0" expanded="false" />
+                <element signature="n#!!block;n#rightIn#0" expanded="false" />
+                <element signature="n#!!block;n#leftOut#0" expanded="false" />
+                <element signature="n#!!block;n#rightOut#0" expanded="false" />
+                <element signature="n#!!block;n#bubbleSort#0" expanded="false" />
+                <element signature="n#!!block;n#insertSort#0" expanded="false" />
+                <element signature="n#!!block;n#selectSort#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -109,9 +106,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -145,10 +143,10 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.splitter.proportion" value="0.24975514" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
@@ -221,15 +219,17 @@
       <updated>1498912366043</updated>
       <workItem from="1498912367440" duration="1721000" />
       <workItem from="1498954864622" duration="18800000" />
-      <workItem from="1498997450227" duration="6525000" />
+      <workItem from="1498997450227" duration="7079000" />
+      <workItem from="1499043857238" duration="1110000" />
+      <workItem from="1499045555728" duration="8344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27046000" />
+    <option name="totallyTimeSpent" value="37054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50855017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -268,6 +268,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task_5/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#323#329#0" expanded="true" />
+            <element signature="e#329#335#0" expanded="true" />
+            <element signature="e#335#341#0" expanded="true" />
+            <element signature="e#341#347#0" expanded="true" />
+            <element signature="e#347#353#0" expanded="true" />
+            <element signature="e#424#430#0" expanded="true" />
+            <element signature="e#430#436#0" expanded="true" />
+            <element signature="e#436#442#0" expanded="true" />
+            <element signature="e#442#448#0" expanded="true" />
+            <element signature="e#448#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_5/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
@@ -297,9 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#rightIn#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -321,7 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1805">
           <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -343,14 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#317#323#0" expanded="false" />
-            <element signature="e#323#329#0" expanded="false" />
-            <element signature="e#329#335#0" expanded="false" />
-            <element signature="e#335#341#0" expanded="false" />
-            <element signature="e#341#347#0" expanded="false" />
-            <element signature="e#347#353#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -358,7 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -372,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task_5/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="228">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="e#323#329#0" expanded="true" />
             <element signature="e#329#335#0" expanded="true" />
@@ -391,13 +405,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task_5/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        <state relative-caret-position="228">
+          <caret line="145" column="39" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
           <folding>
+            <element signature="n#!!block;n#addDeleteLi#0" expanded="false" />
+            <element signature="n#!!block;n#leftIn#0" expanded="false" />
             <element signature="n#!!block;n#rightIn#0" expanded="false" />
+            <element signature="n#!!block;n#leftOut#0" expanded="false" />
+            <element signature="n#!!block;n#rightOut#0" expanded="false" />
+            <element signature="n#!!block;n#bubbleSort#0" expanded="false" />
+            <element signature="n#!!block;n#insertSort#0" expanded="false" />
+            <element signature="n#!!block;n#selectSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
