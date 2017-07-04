@@ -80,6 +80,7 @@ function rightOut(){
     }
 }*/
 
+//特殊效果（一顿一顿）的bubbleSort
 function bubbleSort(){
     var count = 0,i = 0;
     bubbleId = setInterval(function(){
@@ -102,26 +103,7 @@ function bubbleSort(){
     },200);
 }
 
-// function bubbleSort(arr) {
-//     var count = 0,
-//         i = 0;
-//     timer = setInterval(function() {
-//         if (count == arr.length) {
-//             clearInterval(timer);
-//         }
-//         if (i == arr.length - 1 - count) {
-//             i = 0;
-//             count++;
-//         }
-//         if (arr[i] > arr[i + 1]) {
-//             var temp = arr[i];
-//             arr[i] = arr[i + 1];
-//             arr[i + 1] = temp;
-//             query.show();
-//         }
-//         i++;
-//     }, 5000);
-// }
+
 
 
 //直接插入排序
