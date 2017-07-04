@@ -26,6 +26,7 @@ function leftIn(){
         li.style.height = String(parseInt(input.value,10) * 2) + 'px';
         ul.insertBefore(li,ul.firstChild);
         addDeleteLi(li);
+        input.value = null;
     }
 }
 
@@ -43,6 +44,7 @@ function rightIn(){
         li.style.height = String(parseInt(input.value,10) * 2) + 'px';
         ul.appendChild(li);
         addDeleteLi(li);
+        input.value = null;
     }
 
 }
@@ -61,7 +63,7 @@ function rightOut(){
 
 
 //冒泡排序
-function bubbleSort(){
+/*function bubbleSort(){
     for(let i = 0,length = ul.childNodes.length;i < length - 1;i++)
     {
         for(let j = 0;j < length - i - 1;j++)
@@ -76,7 +78,50 @@ function bubbleSort(){
             }
         }
     }
+}*/
+
+function bubbleSort(){
+    var count = 0,i = 0;
+    bubbleId = setInterval(function(){
+        if(count == ul.childNodes.length)
+        {
+            clearInterval(bubbleId);
+        }
+        else if(i == ul.childNodes.length - 1 - count)
+        {
+            i = 0;
+            count ++;
+        }
+        else{
+            if(parseInt(ul.childNodes[i].childNodes[0].innerHTML,10) > parseInt(ul.childNodes[i + 1].childNodes[0].innerHTML,10))
+            {
+                swap(i,i+1);
+            }
+            i ++;
+        }
+    },200);
 }
+
+// function bubbleSort(arr) {
+//     var count = 0,
+//         i = 0;
+//     timer = setInterval(function() {
+//         if (count == arr.length) {
+//             clearInterval(timer);
+//         }
+//         if (i == arr.length - 1 - count) {
+//             i = 0;
+//             count++;
+//         }
+//         if (arr[i] > arr[i + 1]) {
+//             var temp = arr[i];
+//             arr[i] = arr[i + 1];
+//             arr[i + 1] = temp;
+//             query.show();
+//         }
+//         i++;
+//     }, 5000);
+// }
 
 
 //直接插入排序

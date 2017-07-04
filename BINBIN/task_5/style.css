@@ -14,7 +14,7 @@ li{
     margin-right:10px;
     position:relative;
     width:40px;
-    transition:height 2s ease;
+    /*transition:height 2s ease;*/
 }
 
 li span{
