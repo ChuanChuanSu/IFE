@@ -1,0 +1,27 @@
+body{
+    padding-top:30px;
+}
+
+div{
+    border:1px solid black;
+    width:45%;
+    height:70%;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    align-items:center;
+
+}
+
+#root{
+    width:90%;
+    height:260px;
+    margin:10px auto;
+}
+
+#buttons{
+    width:30%;
+    border:0;
+    height:auto;
+    margin:40px auto;
+}
