@@ -1,0 +1,74 @@
+div{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    align-items:center;
+    border:1px solid black;
+    height:80%;
+    text-align:center;
+    background:white;
+}
+
+#super{
+    width:90%;
+    height:100px;
+    margin:30px auto;
+}
+
+#super>div:nth-child(1){
+    width:45%;
+}
+
+#super>div:nth-child(1)>div:nth-child(1){
+    width:50%;
+}
+
+#super>div:nth-child(1)>div:nth-child(2){
+    width:15%;
+}
+
+#super>div:nth-child(1)>div:nth-child(3){
+    width:25%;
+}
+
+#super>div:nth-child(2){
+    width:45%;
+}
+
+#super>div:nth-child(2)>div:nth-child(1){
+    width:45%;
+}
+
+#super>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
+    width:20%;
+}
+
+#super>div:nth-child(2)>div:nth-child(1)>div:nth-child(2){
+    width:30%;
+}
+
+#super>div:nth-child(2)>div:nth-child(1)>div:nth-child(3){
+    width:20%;
+}
+
+#super>div:nth-child(2)>div:nth-child(2){
+    width:45%;
+}
+
+#super>div:nth-child(2)>div:nth-child(2)>div:nth-child(1){
+    width:40%;
+}
+
+#super>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
+    width:20%;
+}
+
+#super>div:nth-child(3){
+    width:5%;
+}
+
+#ergodic{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
