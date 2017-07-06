@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24375838-e698-4dd6-9d7b-705d90e99ee5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_9/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_9/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_9/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_8/index.html" afterPath="$PROJECT_DIR$/task_8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_8/script.js" afterPath="$PROJECT_DIR$/task_8/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_8/style.css" afterPath="$PROJECT_DIR$/task_8/style.css" />
     </list>
     <ignored path="BINBIN.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,6 +64,9 @@
         <option value="$PROJECT_DIR$/task_8/index.html" />
         <option value="$PROJECT_DIR$/task_8/style.css" />
         <option value="$PROJECT_DIR$/task_8/script.js" />
+        <option value="$PROJECT_DIR$/task_9/style.css" />
+        <option value="$PROJECT_DIR$/task_9/index.html" />
+        <option value="$PROJECT_DIR$/task_9/script.js" />
       </list>
     </option>
   </component>
@@ -104,10 +107,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
+      <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="ProjectPane">
+      <pane id="Scratches">
         <subPane />
       </pane>
       <pane id="Scope" />
@@ -124,6 +127,11 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.24975514" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Su Chuan\Desktop\IFE\BINBIN\task_9" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -201,15 +209,15 @@
       <workItem from="1499149146260" duration="20520000" />
       <workItem from="1499218484513" duration="15818000" />
       <workItem from="1499256296945" duration="5584000" />
-      <workItem from="1499303547066" duration="4463000" />
+      <workItem from="1499303547066" duration="10388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93398000" />
+    <option name="totallyTimeSpent" value="99323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23660715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -582,6 +590,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_9/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#last#0" expanded="false" />
+            <element signature="n#!!block;n#changeColor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_9/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="184" selection-start-line="9" selection-start-column="184" selection-end-line="9" selection-end-column="184" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_9/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
           <folding />
         </state>
       </provider>
