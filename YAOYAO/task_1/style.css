@@ -1,0 +1,44 @@
+form{
+    margin:0 auto;
+    width:400px;
+    position:relative;
+    font-size:14px;
+}
+
+form span{
+    position:absolute;
+    left:110px;
+    top:34px;
+    color:gray;
+}
+
+form label{
+    display:inline-block;
+    width:80px;
+    text-align:right;
+    vertical-align:middle;
+    font-size:15px;
+}
+
+form input{
+    vertical-align:middle;
+    width:220px;
+    height:30px;
+    box-sizing:border-box;
+    margin:0 10px 0 20px;
+    border:1px solid gray;
+    border-radius:5px;
+    outline:none;
+    padding-left:6px;
+}
+
+form button{
+    box-sizing:border-box;
+    border:0;
+    height:30px;
+    width:46px;
+    vertical-align:middle;
+    color:white;
+    background:#0f88eb;
+    border-radius:5px;
+}
