@@ -30,6 +30,7 @@ div input{
     border-radius:5px;
     border:1px solid gray;
     outline:0;
+    padding-left:10px;
 }
 
 div span{
