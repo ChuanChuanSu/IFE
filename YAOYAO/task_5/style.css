@@ -57,62 +57,24 @@
     width:40px;
     height:40px;
     border:0;
+    border-top:10px solid blue;
     padding:0;
     background:red;
     position:absolute;
     left:200px;
     top:200px;
-    transition-property:left,top;
+    transition-property:all;
     transition-duration:1s;
 }
 
-#block div:nth-child(1){
-    width:40px;
-    height:10px;
-    border:0;
-    padding:0;
-    background:blue;
-    position:absolute;
-    top:0;
-    left:0;
-    display:block;
-}
+/*#block div{*/
+    /*width:40px;*/
+    /*height:10px;*/
+    /*border:0;*/
+    /*padding:0;*/
+    /*background:blue;*/
+/*}*/
 
-#block div:nth-child(2){
-    width:10px;
-    height:40px;
-    border:0;
-    padding:0;
-    background:blue;
-    position:absolute;
-    top:0;
-    right:0;
-    display:none;
-}
-
-#block div:nth-child(3){
-    width:40px;
-    height:10px;
-    border:0;
-    padding:0;
-    background:blue;
-    position:absolute;
-    left:0;
-    bottom:0;
-    display:none;
-}
-
-#block div:nth-child(4){
-    width:10px;
-    height:40px;
-    border:0;
-    padding:0;
-    background:blue;
-    position:absolute;
-    top:0;
-    left:0;
-    display:none;
-}
 
 .command{
     position:absolute;
