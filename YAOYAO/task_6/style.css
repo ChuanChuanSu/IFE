@@ -1,0 +1,82 @@
+html{
+   padding:0;
+}
+
+body{
+    width:100%;
+    height:2000px;
+    border:0;
+    padding:0;
+    margin:0;
+    position:relative;
+}
+
+.transparent{
+    width:100%;
+    height:100%;
+    background:gray;
+    opacity:0.5;
+    display:none;
+    z-index:9;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.float{
+    width:400px;
+    height:200px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border:1px solid black;
+    z-index:10;
+    display:none;
+}
+
+.float div:nth-child(1){
+    box-sizing:border-box;
+    width:100%;
+    height:15%;
+    background:#d2d2d2;
+    display:flex;
+    align-items:center;
+    border:0;
+    margin:0;
+    padding-left:10px;
+}
+
+.float div:nth-child(2){
+    box-sizing:border-box;
+    width:100%;
+    height:85%;
+    background:white;
+    border:0;
+    margin:0;
+    padding:20px 0 0 10px;
+    position:relative;
+}
+
+.float div:nth-child(2) button
+{
+    position:absolute;
+    width:20%;
+    height:15%;
+    bottom:10px;
+    background-color: rgba(87, 103, 128, 0.36);
+    border-width:1px;
+    outline:0;
+}
+
+.float div:nth-child(2) button:active{
+    bottom:9px;
+}
+
+.float div:nth-child(2) button:nth-child(1){
+    right:30%;
+}
+
+.float div:nth-child(2) button:nth-child(2){
+    right:5%;
+}
