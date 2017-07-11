@@ -1,0 +1,44 @@
+table{
+    width:40%;
+    border-collapse:collapse;
+    margin:30px auto;
+}
+
+th,td{
+    border:1px solid gray;
+    width:20%;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+}
+
+th{
+    position:relative;
+}
+
+button{
+    position:absolute;
+    right:5px;
+    border:0;
+    width:20px;
+    height:14px;
+    outline:0;
+    background-image:url(img/arrows.png);
+}
+
+.up{
+    top:8px;
+}
+
+.up:active{
+    top:9px;
+}
+
+.down{
+    background-position:0 90%;
+    top:22px;
+}
+
+.down:active{
+    top:23px;
+}
